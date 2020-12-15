@@ -35,7 +35,7 @@ function TabNavigator ({navigation}){
            >
            <Tab.Screen name="Camera" 
            options={{tabBarLabel:({color})=>
-           <Icon size={24} name="camera" color={color} />
+           <Icon size={24} name="Camera" color={color} />
         }}>
             {()=><CameraScreen changeScreen={changeScreen}/>}
         </Tab.Screen>
