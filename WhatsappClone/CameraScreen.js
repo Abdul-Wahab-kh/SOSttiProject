@@ -9,7 +9,7 @@ function CameraScreen ({changeScreen}){
   )
     return(
         <View>
-          <Text>Wellcome to Camera Screen</Text>
+          <Text>Wellcome to Camera Scree</Text>
         </View>
     )
 }
