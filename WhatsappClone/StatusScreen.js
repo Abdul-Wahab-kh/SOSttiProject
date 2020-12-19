@@ -6,7 +6,7 @@ import useFocusEffect from '@react-navigation/native'
 
 
         
-  function StatusScreen (changeScreen){
+  function StatusScreen ({changeScreen}){
             useFocusEffect(
                 useCallback(()=>{
                   changeScreen('Status')
